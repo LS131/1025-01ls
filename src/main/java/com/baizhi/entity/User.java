@@ -24,6 +24,8 @@ public class User {
     public User(){
         System.out.println("User创建啦");
         System.out.println("Ctrl+T 更新");
+        System.out.println("修改啦");
+        System.out.println("的确需要改Compare with Branch");
     }
 
     public Integer getId() {
