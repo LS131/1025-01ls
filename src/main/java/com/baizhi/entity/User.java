@@ -15,10 +15,15 @@ import org.springframework.stereotype.Component;
 @ToString
 @Accessors(chain = true)
 */
+//蓝色是修改过的文件
 public class User {
     private Integer id;
     private String username;
     private String password;
+
+    public User(){
+        System.out.println("User创建啦");
+    }
 
     public Integer getId() {
         return id;
